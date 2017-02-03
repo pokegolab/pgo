@@ -3,4 +3,4 @@ setInterval(
 function(){
 $("#area_buttonsearch").click();
 },
-600000);
+1800000);
