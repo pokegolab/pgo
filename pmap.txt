@@ -1,0 +1,32 @@
+ピゴサ自動更新
+・ブラウザのP-GOサーチで定期的に検索サーチをかける方法です。
+
+使い方
+１．ブラウザでP-GOサーチを開く
+２．あらかじめブックマークに登録しておいた、（※）をおす
+
+
+■ブックマークのURLに登録するスクリプト（ java〜scriptから/>'));まで）
+a)〜e)の好きなパターンのものをご利用ください。
+
+
+a)1秒ごとにサーチ　※スマホでオススメ
+javascript:$('body').append($('<script src="https://raw.githubusercontent.com/pokegolab/pgo/changes-left-behind/pgosearch1sec.js" />'));
+
+b)1分ごとにサーチ
+javascript:$('body').append($('<script src="https://raw.githubusercontent.com/pokegolab/pgo/changes-left-behind/pgosearch1min.js" />'));
+
+c)5分ごとにサーチ　※PCでオススメ
+javascript:$('body').append($('<script src="https://raw.githubusercontent.com/pokegolab/pgo/changes-left-behind/pgosearch5min.js" />'));
+
+d)10分ごとにサーチ
+javascript:$('body').append($('<script src="https://raw.githubusercontent.com/pokegolab/pgo/changes-left-behind/pgosearch10min.js" />'));
+
+e)30分ごとにサーチ
+javascript:$('body').append($('<script src="https://raw.githubusercontent.com/pokegolab/pgo/changes-left-behind/pgosearch30min.js" />'));
+
+留意点
+・PCで複数ブラウザ立ち上げて５分おきとかで周回すると広範囲のエリアをめくることができる
+・ピゴサには１時間あたりのサーチ上限回数と、２４時間あたりのサーチ上限回数があるので、やりすぎたらしばらく時間をあけること（おなじIPを使用しなければ回避可能）
+・androidやPCのchromeは使えないので、androidユーザははdolphinブラウザなどを使用するといい
+参考：Google Chromeブラウザアプリでブックマークレットを使う方法 http://rezv.net/iphone/9352/
