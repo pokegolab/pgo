@@ -1,0 +1,25 @@
+ピゴサ自動更新
+・ブラウザのP-GOサーチで定期的に検索サーチをかける方法です。
+
+使い方
+１．ブラウザでP-GOサーチを開く
+２．あらかじめブックマークに登録しておいた、（※）をおす
+
+
+■ブックマークのURLに登録するスクリプト（ java〜scriptから/>'));まで）
+?〜?の好きなパターンのものをご利用ください。
+
+?1秒ごとにサーチ
+javascript:$('body').append($('<script src="https://raw.githubusercontent.com/pokegolab/pgo/changes-left-behind/pgosearch1sec.js" />'));
+?1分ごとにサーチ
+javascript:$('body').append($('<script src="https://raw.githubusercontent.com/pokegolab/pgo/changes-left-behind/pgosearch1min.js" />'));
+?5分ごとにサーチ
+javascript:$('body').append($('<script src="https://raw.githubusercontent.com/pokegolab/pgo/changes-left-behind/pgosearch5min.js" />'));
+?10分ごとにサーチ
+javascript:$('body').append($('<script src="https://raw.githubusercontent.com/pokegolab/pgo/changes-left-behind/pgosearch10min.js" />'));
+?30分ごとにサーチ
+javascript:$('body').append($('<script src="https://raw.githubusercontent.com/pokegolab/pgo/changes-left-behind/pgosearch30min.js" />'));
+
+注意点
+・androidやPCのchromeは使えないので、androidユーザははdolphinブラウザなどを使用するといい
+参考：Google Chromeブラウザアプリでブックマークレットを使う方法 http://rezv.net/iphone/9352/
